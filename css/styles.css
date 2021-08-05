@@ -1,0 +1,493 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    font-size: 2rem;
+    background-image: linear-gradient(to top, #d6d6d6 0%, #fff 100%);
+    
+    
+}
+
+table, th, td{
+    text-align: left;
+    font-size: medium;
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+    
+}
+
+
+th:last-child{
+    border: none;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+td:last-child a{
+    margin: 0 0.5rem;
+}
+
+td:last-child a:last-child{
+    margin-right: 0;
+}
+
+.padding-cero{
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.cabecera{
+    background-image: url("../img/top_left.png"), url("../img/top_right.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    border-color: #9E7E4F;
+    border-width: 10px;
+    border-style: solid none none;
+    display: block;
+    height: auto;
+    padding: 5rem;
+    width: 100%;
+}
+
+.logo-container{
+    width: auto;
+    display: flex;
+}
+
+#logo{
+    margin: 0 auto;
+}
+
+.barra{
+    background-color: #bc955c;
+    height: 3.5rem;
+    border-style: none none solid none;
+    border-color: #9E7E4F;
+    border-width: 0.5rem;
+    padding: 2.5rem;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    padding: 2rem;
+}
+
+.link:hover{
+    color: black;
+}
+
+.all-container{
+    display: flex;
+    justify-content: center;
+}
+
+.carga-curp{
+    margin: 5rem;
+    width: 50%;
+    height: auto;
+    background-color: #efe8d8;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #e0ceac;
+    padding: 2rem;
+}
+
+.paragraph-description{
+    color: #6f7a85;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.input-text{
+    font-size: large;
+    border-radius: 0.5rem;
+}
+
+.icons{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #dde1e6;
+    background-color: #e9ecef;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-button{
+    padding: 2rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: large;
+}
+
+.sup-button{
+    font-weight: bold;
+    background-color: crimson;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.menu-button-one{
+    background-color: #17a2b8;
+    font-size: large;
+}
+
+.menu-button-two{
+    background-color: #28a745;
+}
+
+.menu-button-three{
+    background-color: #98989a;
+}
+
+.menu-button-four{
+    background-color: #235b4e;
+}
+
+.paragraph-time{
+    background-color: #17a2b8;
+    text-align: center;
+    color: #fff;
+}
+
+.paragraph{
+    font-size: small;
+}
+
+.paragraph-footer{
+    text-align: center;
+    margin-top: 3rem;
+    color: gray;
+}
+
+.paragraph-warning{
+    color: rgb(34, 34, 143);
+}
+
+.barra-footer{
+    background-color: #bc955c;
+    height: 5rem;
+}
+
+.error{
+    margin-top: 2rem;
+    color: rgb(187, 12, 12);
+    background-color: rgb(241, 185, 185);
+    padding: 1rem;
+    text-align: center;
+}
+
+.success{
+    margin-top: 2rem;
+    color: rgb(40, 114, 11);
+    background-color: rgb(194, 241, 185);
+    padding: 1rem;
+    text-align: center;
+}
+
+/*Pagina comprobar Curp*/
+.form-comprobante{
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+    border-style: none solid solid solid;
+    border-color: #e0ceac;
+}
+
+.titulo-form{
+    background-color: #efe8d8;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    border-style: solid solid none solid;
+    border-color: #e0ceac;
+    color: gray;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+}
+
+.button-container{
+    display: flex;
+}
+
+.button-container input{
+    margin: 0 auto;
+}
+
+
+.input-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-curp{
+    background-color: #efe8d8;
+    width: 90%;
+    border: none;
+}
+
+.paragraph-terms{
+    padding: 1rem 1rem 0 1rem;
+    font-size: small;
+    text-align: center;
+}
+
+.lit-buttons{
+    font-size: small;
+    display: block;
+    margin: 1rem auto;
+    font-size: small;
+    padding: 1rem;
+    color: #fff;
+}
+.lit-buttons-one{
+    background-color: crimson;
+    width: 15rem;
+}
+
+.lit-buttons-two{
+    background-color: darkgray;
+    width: 10rem;
+}
+
+.container-lit{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.select-location{
+    width: 32%;
+}
+
+.container-solicitud{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+}
+
+.input-container-two{
+    width: 25%;
+}
+
+.input-container-notes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mini-error{
+    font-size: 1.5rem;
+}
+
+.contenedor-resultado{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/** Estilos del Login **/
+.all-login-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    
+}
+
+.container-credential{
+    background-color: rgb(230, 230, 230);
+    width: 40%;
+    padding: 10rem 5rem;
+}
+
+.container-credential label{
+    margin: 1rem 0 1rem 0;
+}
+
+.form-control-login{
+    height: 4rem;
+    font-size: large;
+}
+
+.btn-primary{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: large;
+}
+
+.imagen-gobierno{
+    margin-right: 5rem;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(94,94,94,1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(94,94,94,1);
+    box-shadow: 0px 5px 15px 0px rgba(94,94,94,1);
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+/** Pagina del administrador **/
+.cabecera-admin{
+    background-image: linear-gradient(to right, #d4cca8 0%, rgb(138, 128, 82) 100%);
+    padding: 2rem 0rem 2rem 2rem;
+}
+
+.opciones{
+    list-style: none;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center center;
+}
+
+.contenedor-descripcion{
+    margin-left: 5%;
+    padding: 0 2rem;
+}
+
+/** Pagina del reporte de solicitudes **/
+.tabla-solicitud{
+    background-color: #dddee0;
+    padding: 1rem;
+    width: 90%;
+    border: 0.1rem solid;
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+
+.contenedor-tablas{
+    background-color: #c0b293;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.contenedor-tablas h1{
+    margin: 0;
+}
+
+.contiene-enlaces{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/** Página para guardar solicitudes actualizadas **/
+
+.contenedor-actualizado{
+    background-color: rgb(221, 221, 221);
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.contenedor-updates{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 5rem 2rem;
+    gap: 1.5rem;
+}
+
+.contenedor-updates p{
+    margin-top: 5rem;
+}
+
+.boton{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.boton-volver{
+    background-image: linear-gradient(to top, #8b0909 0%, rgb(202, 80, 80) 80%, rgb(233, 107, 107) 100%);
+    border-color:  #5e0c0c;
+
+}
+
+.boton-pdf{
+    background-image: linear-gradient(to top, #098b34 0%, #05531f, #014b1a);
+    border-color:  #01250d;
+}
+
+.input-completo{
+    background-color: #c0b293;
+    padding: 0.2rem 0;
+    width: 90%;
+    border: none;
+}
+
+/** Personas **/
+
+
+.input-radio{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #efe8d8;
+    padding: 0.5rem 0;
+}
+
+.input-fechas{
+    width: 33%;
+    border: none;
+}
+
+
+
+.contenedor-fechas{
+    display: flex;
+    gap: 0.5rem;
+}
+
+input{
+}
